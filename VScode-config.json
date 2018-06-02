@@ -1,0 +1,42 @@
+{
+    // editor styling
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.snippetSuggestions": "top",
+    "editor.formatOnPaste": true,
+    "workbench.startupEditor": "newUntitledFile",
+    "editor.minimap.enabled": false,
+    "editor.fontFamily": "Operator Mono, Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontSize": 14,
+    "editor.lineHeight": 25,
+    "editor.letterSpacing": 0.5,
+    "files.trimTrailingWhitespace": true,
+    "editor.fontWeight": "400",
+    "editor.cursorStyle": "line",
+    "editor.cursorWidth": 2,
+    "editor.cursorBlinking": "solid",
+    "editor.renderWhitespace": "all",
+    "workbench.editor.enablePreviewFromQuickOpen": false, // don't automaticly close unedited files
+    // git
+    "git.enableSmartCommit": true,
+    "git.confirmSync": false,
+    "git.autofetch": true,
+    // liveserver
+    "liveServer.settings.donotShowInfoMsg": true,
+    // formatting
+    "editor.formatOnSave": true,
+    "html.format.enable": true,
+    "html.format.preserveNewLines": true,
+    // javascript specific
+    "eslint.enable": true,
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    },
+    "[javascript]": {
+        "editor.formatOnSave": false
+    },
+    "eslint.autoFixOnSave": true,
+    "eslint.alwaysShowStatus": true,
+    "files.associations": {
+        "*.json": "jsonc"
+    },
+}
