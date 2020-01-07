@@ -1,35 +1,75 @@
 {
   // editor styling
-  "editor.multiCursorModifier": "ctrlCmd",
-  "editor.snippetSuggestions": "top",
-  "editor.formatOnPaste": true,
-  "editor.minimap.enabled": false,
-  "editor.fontFamily": "Operator Mono, Menlo, Monaco, 'Courier New', monospace",
-  "files.trimTrailingWhitespace": true,
-  "workbench.editor.enablePreviewFromQuickOpen": false, // don't automaticly close unedited files
   "workbench.colorTheme": "Legacy - Material Theme High Contrast",
-  // git
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.fontLigatures": true,
+  "editor.fontFamily": "Operator Mono, Menlo, Monaco, 'Courier New', monospace",
+  "editor.formatOnPaste": false,
+  "workbench.startupEditor": "newUntitledFile",
+  "editor.minimap.enabled": false,
+  "editor.fontSize": 15,
+  "editor.cursorBlinking": "solid",
+  "workbench.editor.enablePreviewFromQuickOpen": false, // don't automaticly close unedited files
   "git.enableSmartCommit": true,
   "git.confirmSync": false,
   "git.autofetch": true,
-  // liveserver
   "liveServer.settings.donotShowInfoMsg": true,
-  // formatting
-  "editor.formatOnSave": true,
+  "files.trimTrailingWhitespace": true,
+  "[markdown]": {
+    "files.trimTrailingWhitespace": false
+  },
   "html.format.enable": true,
   "html.format.preserveNewLines": true,
-  // javascript specific
-  "eslint.enable": true,
+  "editor.wordWrap": "wordWrapColumn",
+  "editor.wordWrapColumn": 120,
   "emmet.includeLanguages": {
     "javascript": "javascriptreact"
   },
+  // javascript specific
+  "prettier.disableLanguages": [
+    "javascript"
+  ],
+  "eslint.enable": true,
   "[javascript]": {
-    "editor.formatOnSave": false
+    "editor.formatOnSave": false,
   },
+  "[javascriptreact]": {
+    "editor.formatOnSave": false,
+  },
+  "[typescript]": {
+    "editor.formatOnSave": false,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
+  "[typescriptreact]": {
+    "editor.formatOnSave": false,
+  },
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+  ],
   "eslint.alwaysShowStatus": true,
   "files.associations": {
     "*.json": "jsonc"
   },
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "window.zoomLevel": 0,
+  "[html, css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.colorCustomizations": {},
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.iconTheme": "material-icon-theme",
+  "typescript.updateImportsOnFileMove.enabled": "always",
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
   }
